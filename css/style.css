@@ -21,7 +21,6 @@ header{
 #logo{
     vertical-align: middle;
     padding: 10px;
-    
 }
 
 #logo-text{
@@ -43,8 +42,9 @@ header{
     margin-top:1px;
     margin-left: 100px;
     margin-right: 100px;
-    padding: 30px;
-
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 10px;
 }
 
 .task-button {

@@ -1,6 +1,6 @@
 .margin{
     margin: 0;
-    background-color: lightgray;
+    background-color: rgb(231, 231, 231);
 }
 
 body{
@@ -11,14 +11,72 @@ body{
 
 header{
     background-color: white;
+    margin-bottom: 40px;
 }
 
 #logo{
     vertical-align: middle;
+    padding: 10px;
+    
 }
 
 #logo-text{
     display: inline;
     vertical-align: middle;
+}
+
+#button{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+
+}
+
+#section{
+    background-color: white;
+    margin-top:1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+
+}
+
+.task-button {
+    border-radius: 10px;
+    background-color: rgb(76, 167, 224);
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.section-button {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: grey;
+    border-style: solid;
+    color: grey;
+    padding: 10px;
+
+    font-weight: 400;
+}
+
+.newsletter-button {
+    border-radius: 15px;
+    background-color: rgb(76, 167, 224);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.text {
+    font-weight: 400;
 }
 

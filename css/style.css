@@ -3,3 +3,22 @@
     background-color: lightgray;
 }
 
+body{
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header{
+    background-color: white;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#logo-text{
+    display: inline;
+    vertical-align: middle;
+}
+

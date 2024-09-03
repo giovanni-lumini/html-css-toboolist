@@ -1,6 +1,6 @@
 .margin{
     margin: 0;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(242, 242, 242);
 }
 
 body{
@@ -12,6 +12,10 @@ body{
 header{
     background-color: white;
     margin-bottom: 40px;
+}
+
+#main-id{
+    margin-bottom: 20px;
 }
 
 #logo{
@@ -59,11 +63,10 @@ header{
     border-style: solid;
     color: grey;
     padding: 10px;
-
     font-weight: 400;
 }
 
-.newsletter-button {
+.blue-button {
     border-radius: 15px;
     background-color: rgb(76, 167, 224);
     color: white;
@@ -76,7 +79,112 @@ header{
     font-weight: 400;
 }
 
+.title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 .text {
     font-weight: 400;
 }
 
+.check-icon-v {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border-color: green;
+    border-style: solid;
+    color: green;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    line-height: 15px;
+}
+
+.check-icon-x {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border-color: red;
+    border-style: solid;
+    color: red;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    line-height: 15px;
+}
+
+.section-separation{
+    margin-bottom: 30px;
+}
+
+.sub-section-separation{
+    margin-bottom: 10px;
+}
+
+.violet-button {
+    border-radius: 15px;
+    background-color: rgb(123, 38, 123);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.green-button {
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.orange-button {
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.pink-button {
+    border-radius: 15px;
+    background-color: rgb(254, 105, 130);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.lightgreen-button {
+    border-radius: 15px;
+    background-color: rgb(113, 216, 113);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
